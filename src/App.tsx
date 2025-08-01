@@ -1,5 +1,5 @@
 import './App.css'
-import { EmailService } from './service/EmailService';
+import { EmailService } from './services/EmailService';
 
 function App() {
   const email = new EmailService();
